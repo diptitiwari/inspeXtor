@@ -1,0 +1,80 @@
+const allAutoTuningPolicies = [
+    {
+        "ID": "1",
+        "PName": "Test",
+        "ClusterID": "2",
+        "Color": "3312",
+        "Level": "6",
+        "StartTime": "13:13:00",
+        "EndTime": "13:15:00",
+        "Day1": "1",
+        "Day2": "1",
+        "Day3": "1",
+        "Day4": "1",
+        "Day5": "1",
+        "Day6": "1",
+        "Day7": "1",
+        "Createdby": "1",
+        "CreatedOn": "2019-10-29 04:13:17",
+        "Deleted": "0",
+        "DeletedBy": null,
+        "DeletedOn": null,
+        "ModifiedBy": "1",
+        "ModiFiedOn": "2019-11-01 13:11:46",
+        "Synchronize": "2019-10-29 04:13:17"
+    },
+    {
+        "ID": "2",
+        "PName": "Test1",
+        "ClusterID": "2",
+        "Color": "5000",
+        "Level": "100",
+        "StartTime": "13:16:00",
+        "EndTime": "14:05:00",
+        "Day1": "1",
+        "Day2": "1",
+        "Day3": "1",
+        "Day4": "1",
+        "Day5": "1",
+        "Day6": "1",
+        "Day7": "1",
+        "Createdby": "1",
+        "CreatedOn": "2019-10-29 04:14:37",
+        "Deleted": "0",
+        "DeletedBy": null,
+        "DeletedOn": null,
+        "ModifiedBy": "1",
+        "ModiFiedOn": "2019-11-01 13:11:15",
+        "Synchronize": "2019-10-29 04:14:37"
+    },
+    {
+        "ID": "3",
+        "PName": "dfgfg",
+        "ClusterID": "1",
+        "Color": "3500",
+        "Level": "50",
+        "StartTime": "00:00:00",
+        "EndTime": "01:00:00",
+        "Day1": "1",
+        "Day2": "0",
+        "Day3": "0",
+        "Day4": "0",
+        "Day5": "0",
+        "Day6": "0",
+        "Day7": "0",
+        "Createdby": "1",
+        "CreatedOn": "2019-11-05 06:35:26",
+        "Deleted": "0",
+        "DeletedBy": null,
+        "DeletedOn": null,
+        "ModifiedBy": null,
+        "ModiFiedOn": null,
+        "Synchronize": "2019-11-05 06:35:26"
+    }
+];
+
+const initState = {
+    autoTunePolicies: allAutoTuningPolicies
+};
+
+export default initState;

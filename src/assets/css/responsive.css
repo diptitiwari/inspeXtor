@@ -1,0 +1,32 @@
+/* media query for below mobile and tablet */
+@media(max-width:991px){
+    .tree-view-panel{
+        width: 100%;
+        position: relative;
+        height: calc(100% - 9px);
+    }
+    .mob-sm{
+        flex-direction: column !important;
+    }
+    .btn-group>.btn{
+        margin-bottom: 10px;
+    }
+    .floor-img {
+        height: 100%;
+      }
+}
+@media (min-width: 992px) and (max-width: 1295px){
+    .tree-view-panel{
+        height: calc(100% - 9px);
+        padding-bottom: 20px;
+        /* width: 182px; */
+    }
+}
+
+/* media query for above mobile and tablet */
+@media(min-width:767px){
+    .card-signin {
+        width: 370px;
+    }
+    
+}

@@ -1,0 +1,165 @@
+<template>
+  <b-col
+    lg="6"
+    md="6"
+    sm="12"
+    class="mx-auto"
+  >
+    <b-form
+      class="mt-2"
+      @submit.prevent=""
+    >
+      <b-row>
+        <b-col
+          lg="12"
+          md="12"
+        >  
+          <b-form-group
+            id="input-group-contract"
+            label="Contract"
+          >
+            <b-form-input
+              id="txtcontract"
+              v-model="help.contract"
+              placeholder="Contract"
+              required
+              disabled
+            />
+          </b-form-group>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col
+          lg="6"
+          md="6"
+          sm="6"
+        >
+          <b-form-group
+            id="input-group-name"
+            label="Name"
+          >
+            <b-form-input
+              id="txtname"
+              v-model="help.name"
+              placeholder="Name"
+              required
+            />
+          </b-form-group>
+        </b-col>
+        <b-col
+          lg="6"
+          md="6"
+          sm="6"
+        >
+          <b-form-group
+            id="input-group-Cname"
+            label="Company Name"
+          >
+            <b-form-input
+              id="txtCname"
+              v-model="help.Cname"
+              placeholder="Company Name"
+              required
+            />
+          </b-form-group>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col
+          lg="6"
+          md="6"
+          sm="6"
+        >
+          <b-form-group
+            id="input-group-number"
+            label="Phone Number"
+          >
+            <b-form-input
+              id="txtnumber"
+              v-model="help.phone"
+              placeholder="Phone Number"
+              required
+            />
+          </b-form-group>
+        </b-col>
+        <b-col
+          lg="6"
+          md="6"
+          sm="6"
+        >
+          <b-form-group
+            id="input-group-email"
+            label="Email"
+          >
+            <b-form-input
+              id="txtemail"
+              v-model="help.email"
+              placeholder="Email"
+              required
+            />
+          </b-form-group>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col
+          lg="12"
+          md="12"
+        >  
+          <b-form-group
+            id="input-group-contract"
+            label="Contract"
+          >
+            <b-form-textarea
+              id="textarea-comment"
+              v-model="help.comment"
+              placeholder="Enter something..."
+              rows="3"
+              max-rows="6"
+            />
+          </b-form-group>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col
+          lg="12"
+          md="12"
+          sm="12"
+        >
+          <b-form-group class="text-center">
+            <b-btn
+              variant="primary"
+              class="btn btn-cons text-uppercase "
+              type="submit"
+            >
+              Save
+            </b-btn>
+            <b-btn
+              variant="secondary"
+              class="btn btn-cons btn- text-uppercase"
+              type="reset"
+            >
+              Cancel
+            </b-btn>
+          </b-form-group>
+        </b-col>
+      </b-row>
+    </b-form>
+  </b-col>
+</template>
+<script>
+export default {
+    data:() =>{
+        return{
+            help:{
+                contract:'vdsvdsvsdvascasv',
+                name:'',
+                Cname:'',
+                phone:'',
+                email:''
+            }
+        }
+    }
+}
+</script>
+<style scoped>
+</style>

@@ -1,0 +1,3 @@
+export const CREATE_SWITCH = "CREATE_SWITCH";
+export const UPDATE_SWITCH = "UPDATE_SWITCH";
+export const DELETE_SWITCH = "DELETE_SWITCH";
